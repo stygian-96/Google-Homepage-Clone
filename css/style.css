@@ -11,6 +11,10 @@ html{
     font-family: Arial, sans-serif;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 nav ul li .menu{
     height: 26.5px;
     width: 26.5px;
@@ -95,26 +99,22 @@ header{
 
 .main{
     position: absolute;
-    top: 45vh;
+    top: 48.5vh;
     left: 50vw;
     transform: translate(-50%,-50%);
     align-items: center;
     text-align: center;
 }
 
-.main img{
-    margin-top: 32.5px;
-    margin-bottom: 32.5px;
-}
-
 .search-box{
+    margin-top: 27.5px;
     width: 590px;
     display: grid;
     grid-template-columns: 1.2fr 10fr 1.2fr;
     height: 46px;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgba(0,0,0,0.15);
+    border: 0.5px solid rgba(0,0,0,0.15);
     border-radius: 23px;
 }
 
@@ -137,7 +137,7 @@ header{
 }
 
 .search-button{
-    margin: 32.5px auto;
+    margin: 27.5px auto 0 auto;
 }
 
 .button-s1{
@@ -176,4 +176,23 @@ header{
     border: 0.6px solid rgba(0,0,0,0.35);
     color: rgba(0,0,0,0.8);
     background: rgba(0,0,0,0.04);
+}
+
+.text{
+    margin-top: 20px;
+}
+
+.text p a{
+    color: #1a0dab;
+    font-size: 0.8rem;
+}
+
+.text .lol{
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.85);
+    margin-top: 32.5px;
+}
+
+.text .lol a{
+    margin-left: 0.3rem;
 }
