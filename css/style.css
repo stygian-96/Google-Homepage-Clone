@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+nav ul li .menu{
+    height: 26.5px;
+    width: 26.5px;
+    vertical-align: middle;
+    transform: translate(7%, -3%);
+    opacity: 0.7;
+}
+
+nav ul{
+    position: absolute;
+    right: 0;
+    margin: 1rem 1.7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.user{
+    font-size: 32.5px;
+    vertical-align: middle;
+    transform: translate(5%, -2%);
+}
+
+nav ul li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 0.35rem;
+}
+
+nav ul li a{
+    color: rgba(0,0,0,0.75);
+}
+
+/* Header */
+/* 
+header{
+    height: 70px;
+}
+
+.header{
+    width: 16.5%;
+    margin-right: 10px;
+    padding: 0.8rem 1rem;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    position: absolute;
+}
+
+.header .links a{
+    padding: 0rem 0rem 0rem 0.6rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgba(0,0,0,0.75);
+}
+
+.header i{
+    color: rgba(0,0,0,0.75);
+}
+
+.menu{
+    height: 28px;
+    width: 28px;
+    opacity: 0.75;
+}
+
+.menu-app{
+    padding-top: 20%;
+    margin-right: 0.1rem;
+}
+.user{
+    font-size: 1.9rem;
+} */
+
+/* Main Body */
+
