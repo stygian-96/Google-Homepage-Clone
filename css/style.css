@@ -23,6 +23,7 @@ nav ul li .menu{
     vertical-align: middle;
     transform: translate(7%, -3%);
     opacity: 0.65;
+    cursor: pointer;
 }
 
 nav ul{
