@@ -490,6 +490,8 @@ header{
     color: rgb(0, 153, 255);
     font-weight: 300;
     font-size: 0.9rem;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .card-button:hover{
